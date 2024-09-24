@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="bg-[url('./img/img.png')] bg-no-repeat bg-cover h-screen">
-        <nav class="container mx-auto lg:px-16 px-4  flex flex-wrap items-center py-4">
+    <header class="bg-[url('./img/img.png')] bg-no-repeat bg-cover h-screen flex flex-col">
+        <nav class="max-w-[1138px] w-full mx-auto lg:px-16 px-4  flex flex-wrap items-center py-4">
             <div class="flex-1 flex justify-between items-center">
                 <a href="#" class="text-xl"><img src="./img/LOGO (1).png" alt=""></a>
             </div>
@@ -39,6 +39,18 @@
                 </nav>
             </div>
         </nav>
+
+        <div class="max-w-[1138px] w-full mx-auto flex flex-col justify-center items-start flex-grow">
+            <div class="text-center">
+                <h3 class="text-[#D67E35] text-[50px]">Добро пожаловать в</h3>
+            <h2 class="text-[#D67E35] text-[80px]">Наш ресторан</h2>
+            <span class="text-white block text-lg before:content-[''] before:absolute relative before:w-[50px] before:h-[2px] w-max mx-auto before:bg-white before:-left-[40%] before:top-[50%]
+            after:content-[''] after:w-[50px] after:h-[2px] after:bg-white after:top-[50%] after:right-[-40%] after:absolute mb-5">ДОМ ЛУЧШЕЙ ЕДЫ</span>
+            <li><a class="md:p-4 py-3 px-5 inline-block bg-[#FF7400] text-white text-sm font-bold ml-16 hover:bg-[#ff73008e] transition-[500ms]" href="#">VIEW MENU</a></li>
+            </div>
+            
+
+        </div>
     </header>
 </body>
 </html>
